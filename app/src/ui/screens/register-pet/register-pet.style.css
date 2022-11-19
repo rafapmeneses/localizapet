@@ -1,0 +1,64 @@
+.register-pet__content{
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  background-image: url("../../../assets/img/background1.jpg");
+  background-size: cover;
+}
+
+.register-pet__container{
+  margin: 0 auto;
+  width: 66%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 0.8rem;
+
+  z-index: 1;
+
+  background-color: rgba(240, 248, 255, 0.9);
+  border-right: 2px solid rgba(0, 0, 0, 0.3);
+  border-left: 2px solid rgba(0, 0, 0, 0.3);
+  /* box-shadow: 4px 0px 6px 0px rgba(0,0,0,0.75);    */
+}
+
+.register-pet__form{
+  width: 100%;
+  height: 100%;
+  padding: 0 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.register-pet__map{
+  width: 500px;
+  height: 250px;
+}
+
+.register-pet__map-label-lost{
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  margin: 8px 0;
+  color: var(--purple-heavy-1);
+  text-shadow: 4px 4px 4px rgba(225, 91, 91, 0.6); 
+}
+
+.register-pet__map-label-adoption{
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  margin: 8px 0;
+  color: var(--purple-heavy-1);
+  text-shadow: 4px 4px 4px rgba(102, 91, 225, 0.6);
+}
+
+.register-pet__botao{
+  margin-top: 10px;
+  width: 200px;
+}

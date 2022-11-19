@@ -1,0 +1,57 @@
+.botao__principal {
+  padding: 12px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 600;
+  border-radius: 3px;
+  font-size: 16px;
+  width: auto;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.botao__principal:hover:not(.botao__principal:disabled) {
+  transition: 0.3s;
+  filter: brightness(80%);
+}
+
+.botao__principal:disabled {
+  background: var(--gray-3);
+  cursor: not-allowed;
+  color: var(--white-3);
+}
+
+.icone {
+  justify-content: space-between;
+}
+
+.sem-icone {
+  justify-content: center;
+}
+
+.preenchido {
+  border: 0;
+  background: var(--purple-main);
+  color: var(--white-0);
+}
+
+.contornado {
+  border: 2px solid var(--purple-main);
+  background: var(--white-0);
+  color: var(--purple-main);
+}
+
+.redondo {
+  border-radius: 15px;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+/* @media (max-width: 2000px) {
+  .botao__principal {
+    width: auto;
+  }
+} */

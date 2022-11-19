@@ -1,0 +1,33 @@
+.botao-icone__principal {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.botao-icone__principal > svg {
+  margin-right: 16px;
+}
+
+.botao-icone__principal > svg:hover,
+.botao-icone__principal > img:hover {
+  transform: scale(1.08);
+  transition: 0.3s;
+}
+
+.botao-icone__principal:hover:not(.botao-icone__principal:disabled) {
+  transition: 0.3s;
+  filter: brightness(80%);
+  background-color: aliceblue;
+}
+
+.botao-icone__iconePers{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}

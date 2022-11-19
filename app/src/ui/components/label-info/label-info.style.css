@@ -1,0 +1,37 @@
+.label-info__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 40%;
+  height: 80px;
+}
+
+.label-info__box{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.label-info__label{
+  width: 140px;
+  padding-right: 36px;
+  text-align: end;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.label-info__info{
+  font-size: 16px;
+  font-weight: 400;
+  width: 200px;
+  margin: 0;
+}
+
+.label-info__line{
+  width: 110%;
+  margin-top: 10px;
+  border-bottom: 1px solid rgba(102, 91, 225, 0.4);
+  box-shadow: 0px 0px 6px 0px rgba(102, 91, 225, 1);   
+}

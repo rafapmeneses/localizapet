@@ -1,0 +1,43 @@
+.filter-map__content{
+  flex-direction: column;
+  justify-content: flex-start;
+
+  height: 100%;
+  width: 300px;
+
+  background-color: aliceblue;
+  border-right: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 0px 6px 0px rgba(0,0,0,0.75); 
+
+  position: absolute;
+
+  z-index: 2;
+  left: 300px;
+
+  transition: ease 1s;
+  display: flex;
+
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+}
+
+.filter-map__show {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
+}
+
+.filter-map__container{
+  margin: 0 auto;
+  width: 90%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  padding: 1rem;
+
+  z-index: 1;
+
+  background-color: rgba(240, 248, 255, 0.8);
+}
