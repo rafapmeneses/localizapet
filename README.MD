@@ -10,6 +10,7 @@ O sistema permite ao usuário comum buscar por animais cadastrados para adoção
 
 ## Como iniciar a aplicação
 ### API
+- É necessário ter o Java 11
 - Na pasta `./api` utilizar o `intellij` ou IDE de preferência, que baixe as dependências do `pom.xml` para iniciar a api do projeto.
 - Na pasta `./api/src/main/resources` se encontra o arquivo `application.yml` com as configurações da aplicação.
 - É necessário criar o banco de dados no mongoDB local ou no cloud.mongodb.com.
@@ -18,6 +19,7 @@ O sistema permite ao usuário comum buscar por animais cadastrados para adoção
 - Os endpoints para utilizar na api estão no arquivo `localizapet-payload-insomnia.json` na pasta `./data`.
 
 ### APP
+- É necessário ter o Node 16
 - Ao acessar a pasta `./app` dentro do terminal, utilizar o comando `npm i` para instalar as dependências da aplicação.
 - Ainda na pasta `./app` dentro do terminal, utilizar o comando `npm start` para iniciar a aplicação front-end.
 
